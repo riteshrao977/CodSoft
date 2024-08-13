@@ -1,5 +1,5 @@
 import cv2
-face_cap = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cap = cv2.CascadeClassifier('https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml')
 video_cap = cv2.VideoCapture(0)
 while True:
     ret, video_data = video_cap.read()
